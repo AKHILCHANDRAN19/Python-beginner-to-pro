@@ -1,0 +1,5 @@
+height = float(input('enter your height in m\n'))
+weight = float(input('enter your weight in kg\n'))
+BMI = weight / (height * height)
+BMIR = round(BMI,2)
+print(f'your bmi is calvulated as  {BMIR}')

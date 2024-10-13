@@ -3,7 +3,7 @@ age = int(input('How old are you?\n'))
 bill = 0
 if age < 12:
   bill += 5
-elif age < 18:
+elif age <= 18:
   bill += 7
 elif age > 18 and age <= 60:
   bill += 12

@@ -7,7 +7,8 @@ list_of_pepoles = name_of_persons.split(", ")
 number_of_items = len(list_of_pepoles)
 #calculating number of entries in the list
 random_choice = random.randint(0, number_of_items - 1)
-#taking a random number according to the number of inputs
+#taking a random number according to the number of inputs always the correspondent entry in list is less than the generated number
 desired_person = list_of_pepoles[random_choice]
 #placing the randomily generated number and calling the corresponding entry in the list
 print(f"{desired_person} is going to pay the bill")
+#printing the result

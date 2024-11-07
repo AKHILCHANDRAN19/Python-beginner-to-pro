@@ -23,3 +23,6 @@ print(states_of_india)
 states_of_india = ["Andhra Pradesh", "Arunachal Pradesh", "Assam", "Bihar", "Karnataka", "Uttar Pradesh"]
 states_of_india.extend(["kerala", "Tamil Nadu"])
 print(states_of_india)
+
+#more functions is here 👇👇
+#docs.python.org/3/tutorial/datastructures.html

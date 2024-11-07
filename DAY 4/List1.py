@@ -11,3 +11,9 @@ print(states_of_india[-2])
 states_of_india = ["Andhra Pradesh", "Arunachal Pradesh", "Assam", "Bihar", "Karnataka", "Uttar Pradesh"]
 states_of_india[0] = "Anthra Pradesh"
 print(states_of_india)
+
+#adding a data at the end of the list
+
+states_of_india = ["Andhra Pradesh", "Arunachal Pradesh", "Assam", "Bihar", "Karnataka", "Uttar Pradesh"]
+states_of_india.append("kerala")
+print(states_of_india)

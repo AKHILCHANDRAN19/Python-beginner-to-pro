@@ -1,3 +1,5 @@
+#Create a program that randomly selects a place to eat from a given list of restaurants.
+
 import random
 place_for_lunch = input("Enter the names of the restaurants separated by a comma: ").split(",")
 list_items = len(place_for_lunch)

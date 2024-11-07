@@ -12,8 +12,14 @@ states_of_india = ["Andhra Pradesh", "Arunachal Pradesh", "Assam", "Bihar", "Kar
 states_of_india[0] = "Anthra Pradesh"
 print(states_of_india)
 
-#adding a data at the end of the list
+#adding a data at the end of the list Append function
 
 states_of_india = ["Andhra Pradesh", "Arunachal Pradesh", "Assam", "Bihar", "Karnataka", "Uttar Pradesh"]
 states_of_india.append("kerala")
+print(states_of_india)
+
+#adding a new list to the existing list using extend function
+
+states_of_india = ["Andhra Pradesh", "Arunachal Pradesh", "Assam", "Bihar", "Karnataka", "Uttar Pradesh"]
+states_of_india.extend(["kerala", "Tamil Nadu"])
 print(states_of_india)
